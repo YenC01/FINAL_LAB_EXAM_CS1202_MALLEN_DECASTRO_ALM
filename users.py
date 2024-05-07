@@ -14,26 +14,26 @@ class UserManager:
     def validate_username(self, username):
         if username in self.user_accounts:
             pass
-            
-   
+
     def validate_password(self):
         while len(self.password) < 4:
             print('Password must be at least 4 characters long.')
             password = input('Enter password: ')
-            save_users()
+            UserManager.save_users()
   
     def register(self):
         self.username = input('Enter username: ')
-        validate_username(self)
+        UserManager.validate_username()
         
         self.password = input('Enter password: ')
-        validate_password(self)
+        UserManager.validate_password()
         
     def login(self):
         username = input('Enter your username: ')
         password = input('Enter your password: ')
         
         if username in self.user_accounts and password in self.user_accounts:
+            pass
             
     
 class user:
@@ -79,6 +79,12 @@ class user:
             except ValueError:
                 print('Invald Input.')
                 
-        
+class DiceGame
+
+import random
+
+print ("Welcome to Dice Game")
+
+def 
         
         
